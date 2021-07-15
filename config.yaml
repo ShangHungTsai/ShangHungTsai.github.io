@@ -1,8 +1,9 @@
-baseurl: https://example.com
+# 基本設置
+baseurl: "https://ShangHungTsai.github.io/" #改成你github帳號名稱
 languageCode: en-us
 theme: hugo-theme-stack
 paginate: 5
-title: Example Site
+title: "蝦米's Blog"
 
 # Change it to your Disqus shortname before using
 disqusShortname: hugo-theme-stack
@@ -34,8 +35,8 @@ params:
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🦐
+        subtitle: 追求知識，沒有結尾 🔥
         avatar:
             local: true
             src: img/avatar.png
