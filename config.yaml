@@ -15,8 +15,10 @@ googleAnalytics:
 # Available values: en, fr, id, ja, ko, pt-br, zh-cn, es, de, nl
 DefaultContentLanguage: en
 
+enableEmoji: true # 設定是否可使用 Emoji
+
 permalinks:
-    post: /p/:slug/
+    post: "/:year/:month/:title/"
     page: /:slug/
 
 params:
@@ -42,7 +44,7 @@ params:
             src: img/avatar.png
 
     article:
-        math: false
+        math: false #設定 可使用 KATEX 數學式
         toc: true
         license:
             enabled: true
